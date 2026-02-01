@@ -4,11 +4,11 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
-  },
+  "dev": "vite",
+  "build": "tsc --noEmit false && vite build",
+  "lint": "eslint .",
+  "preview": "vite preview"
+},
   "engines": {
     "node": "18.x"
   },
