@@ -1,6 +1,5 @@
 {
   "buildCommand": "npm run build",
-  "env": {
-    "CI": "false"
-  }
+  "framework": "vite",
+  "installCommand": "npm install"
 }
