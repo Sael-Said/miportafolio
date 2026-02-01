@@ -9,6 +9,9 @@
     "lint": "eslint .",
     "preview": "vite preview"
   },
+  "engines": {
+    "node": "18.x"
+  },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "framer-motion": "^12.29.0",
@@ -39,4 +42,3 @@
   "author": "",
   "license": "ISC"
 }
-
